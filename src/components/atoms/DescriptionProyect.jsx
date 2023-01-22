@@ -2,7 +2,7 @@ import React from 'react'
 
 function DescriptionProyect({projectDescription}) {
   return (
-    <div>{projectDescription}</div>
+    <div className='descritionAbout'>{projectDescription}</div>
   )
 }
 

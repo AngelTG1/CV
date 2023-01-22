@@ -1,8 +1,8 @@
 import React from 'react'
 
-function TitleSection({msn}) {
+function TitleSection({msn, clasename}) {
   return (
-    <div>{msn}</div>
+    <h1 className={clasename}>{msn}</h1>
   )
 }
 

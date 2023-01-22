@@ -3,7 +3,7 @@ import '../../assets/css/aboutMe.css';
 
 function NumberDescription({numberDescription}) {
   return (
-    <div>{numberDescription}</div>
+    <div className='container-grafic'>{numberDescription}</div>
   )
 }
 

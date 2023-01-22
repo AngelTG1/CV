@@ -1,12 +1,17 @@
+import React from 'react'
 import { informations } from '../../data/information';
-import NumberDescription from '../atoms/NumberDescription';
-
-
+import Tarjeta from '../atoms/Tarjeta';
 
 function GraficCircle() {
   return (
     <>
-        <GraficCircle  numberGrafic={informations.numberGrafic1}/>
+        <div class="container-grafic">
+        <Tarjeta infor={informations.porcetajeHtml} nombre="Html" />
+        <Tarjeta infor={informations.porcetajeCss} nombre="Css" />
+        <Tarjeta infor={informations.porcetajeJavascript} nombre="Javascript" />
+        <Tarjeta infor={informations.porcetajeJava} nombre="Java" />
+        
+    </div>
     </>
   )
 }

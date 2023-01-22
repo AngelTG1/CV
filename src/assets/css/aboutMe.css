@@ -22,6 +22,9 @@ body{
     line-height: 1.8em;
     letter-spacing: 1px;
     font-weight: 600;
+    text-align: justify;
+    /* margin-top: 100px; */
+    padding: 20px;
 }
 
 .descritionAbout2{
@@ -50,12 +53,13 @@ body{
     display: flex;
     justify-content: space-around;
     margin: 4% 5%;
+    
 }
 
 .box{
     background-color: #A8A8A8;
     backdrop-filter: blur(15px);
-    border: 1px solid black;
+    box-shadow: 15px 5px 10px #48529944;
     z-index: 10;
     width: 234px;
     height: 247px;
@@ -63,6 +67,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .container .card {
@@ -197,7 +202,7 @@ svg circle:nth-child(2){
 }
 .card:nth-child(3) svg circle:nth-child(2)
 {
-    stroke-dashoffset: calc(440 - (440 * 60) / 100);
+    stroke-dashoffset: calc(440 - (440 * 40) / 100);
     stroke: #FFD600;
 }
 

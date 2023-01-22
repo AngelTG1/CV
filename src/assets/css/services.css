@@ -23,13 +23,19 @@
     /* background: #000; */
     border-radius: 20px;
     margin: 10px;
-    /* border: 1px solid red; */
+    /* border: 1px solid red */
+}
+.icon-item{
+    
 }
 
 .icon-item img{
     /* border: 2px solid aqua; */
     width: 95px;
     height: 95px;
+    transition: 0.5s;
+    box-shadow: 5px 10px 5px #48529944;
+    border-radius: 10px;
 }
 
 .icon-item-right{

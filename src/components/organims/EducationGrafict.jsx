@@ -1,38 +1,28 @@
 import React from 'react'
 import '../../assets/css/education.css';
+import EducationAtom from '../atoms/EducationAtom';
+import { informations } from '../../data/information';
+import TitleSection from '../atoms/TitleSection';
 
 function EducationGrafict() {
   return (
     <>
         <section class="education ">
 
-            <h1 class="heading titleAbout">My Education</h1>
+            <TitleSection msn={informations.titles[2]} clasename="heading titleAbout" />
+            
+            {/* <h1 class="heading titleAbout">My Education</h1> */}
 
             <div class="box-container">
 
-                <div class="box1">
-                    <div class="year">2017 - 2018</div>
-                    <h3>front end development</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore ut quis nam eos deserunt veritatis adipisci, beatae odio rerum doloribus?</p>
-                </div>
+                <EducationAtom year={informations.year1} title={informations.eduTitle1} description={informations.eduDescription1} />
+                <EducationAtom year={informations.year2} title={informations.eduTitle2} description={informations.eduDescription2} />
+                <EducationAtom year={informations.year3} title={informations.eduTitle3} description={informations.eduDescription3} />
+                <EducationAtom year={informations.year4} title={informations.eduTitle4} description={informations.eduDescription4} />
 
-                <div class="box1">
-                    <div class="year">2018 - 2019</div>
-                    <h3>front end development</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore ut quis nam eos deserunt veritatis adipisci, beatae odio rerum doloribus?</p>
-                </div>
 
-                <div class="box1">
-                    <div class="year">2019 - 2020</div>
-                    <h3>front end development</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore ut quis nam eos deserunt veritatis adipisci, beatae odio rerum doloribus?</p>
-                </div>
 
-                <div class="box1">
-                    <div class="year">2020 - 2021</div>
-                    <h3>front end development</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore ut quis nam eos deserunt veritatis adipisci, beatae odio rerum doloribus?</p>
-                </div>
+                
 
             </div>
 

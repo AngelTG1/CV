@@ -8,7 +8,7 @@ import { informations } from '../../data/information'
 function AboutMe({projectList}) {
   return (
     <>
-        <TitleSection msn={informations.title}/>
+        {/* <TitleSection msn={informations.title}/> */}
         {
             projectList.map( itemProject => <DescriptionProyect projectDescription={itemProject} />)
         }
