@@ -1,0 +1,56 @@
+.titleServi{
+    font-family: 'Coiny', cursive;
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 30px;
+}
+
+.ovr-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    width: 70%;
+    margin: 0 15%;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.ovr-build-grid{
+    display: flex;
+    width: 375px;
+    /* height: 200px; */
+    /* background: #000; */
+    border-radius: 20px;
+    margin: 10px;
+    /* border: 1px solid red; */
+}
+
+.icon-item img{
+    /* border: 2px solid aqua; */
+    width: 95px;
+    height: 95px;
+}
+
+.icon-item-right{
+    width: 310px;
+    /* border: 2px solid rebeccapurple; */
+}
+
+.icon-item-title{
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Coiny', cursive;
+    font-weight: 800;
+    padding: 0px 10px;
+}
+
+
+.icon-item-desc{
+    /* font-family: sans-serif; */
+    font-family: 'Nunito', sans-serif;
+    padding: 0 10px;
+}
+
+.icon-item-icon img:hover{
+    transform: translateY(-5px);
+}

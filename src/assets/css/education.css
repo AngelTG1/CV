@@ -1,0 +1,62 @@
+.education{
+    /* border: 2px solid black; */
+    /* margin: 30px; */
+}
+
+.box-container{
+   /* border: 2px solid red;  */
+   margin: 50px;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Coiny', cursive;
+}
+
+.education .box-container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:2rem 0;
+}
+
+.education .box-container .box1{
+    width:30rem;
+    padding:0 2rem;
+    padding-bottom: 4rem;
+    border-left: .2rem solid #000;
+}
+
+.education .box-container .box1 .year{
+    font-family: 'Coiny', cursive;
+    font-size: 2rem;
+    color:#000;
+    position: relative;
+}
+
+.education .box-container .box1 .year::before{
+    content:'';
+    position: absolute;
+    top:.3rem; left: -3.1rem;
+    height:2rem;
+    width:2rem;
+    border-radius: 50%;
+    background:#000;
+}
+
+.education .box-container .box1 h3{
+    font-family: 'Coiny', cursive;
+    font-size: 2rem;
+    color:#000;
+    padding-top: 1rem;
+}
+
+.education .box-container .box1 p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3rem;
+    color:#000;
+    padding: 1rem 0;
+}
