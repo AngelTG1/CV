@@ -19,7 +19,7 @@ function AboutDescription() {
         <p className='descritionAbout'>{informations.proyecto1}</p>
         <p className='descritionAbout'>{informations.proyecto2}</p> */}
         <div>
-          <a className='descritionAbout2 color1' href="https://github.com/AngelTG1"><img src={github} alt="" /> {informations.infor}</a>
+          <a className='descritionAbout2 color1' href="https://github.com/AngelTG1"><img className='github' src={github} alt="" /> {informations.infor}</a>
         </div>
     </div>
   )

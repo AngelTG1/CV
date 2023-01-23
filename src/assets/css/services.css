@@ -39,8 +39,9 @@
 }
 
 .icon-item-right{
-    width: 310px;
+    /* width: 310px; */
     /* border: 2px solid rebeccapurple; */
+    /* font-size: 12px; */
 }
 
 .icon-item-title{
@@ -59,4 +60,42 @@
 
 .icon-item-icon img:hover{
     transform: translateY(-5px);
+}
+
+@media screen and (max-width: 571px){
+    .ovr-section{
+        /* margin: 0 90px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid red; */
+        /* width: 80%; */
+    }
+
+    .icon-item-right{
+        position: relative;
+        /* left: -10px; */
+        /* border: 1px solid green; */
+        /* width: 0%; */
+    }
+    .icon-item img{
+        position: relative;
+        /* left: -20px; */
+    }
+}
+@media screen and (max-width: 497px){
+    .icon-item-title{
+        font-size: 18px;
+    }
+    .ovr-section{
+        margin: 0 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid green; */
+        /* width: 80%; */
+    }
+    .icon-item-right{
+        font-size: 12.50px;
+    }
 }

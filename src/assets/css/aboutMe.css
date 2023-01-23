@@ -25,6 +25,7 @@ body{
     text-align: justify;
     /* margin-top: 100px; */
     padding: 20px;
+    
 }
 
 .descritionAbout2{
@@ -48,11 +49,14 @@ body{
 .container-grafic{
     /* background-color: blue; */
     /* border: 1px solid black; */
-    position: relative;
-    width: 1100px;
+    width: 85%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     margin: 4% 5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
     
 }
 
@@ -210,5 +214,58 @@ svg circle:nth-child(2){
 {
     stroke-dashoffset: calc(440 - (440 * 46) / 100);
     stroke: #5382A1;
+}
+
+@media screen and (min-width: 1200px){
+    .container-grafic{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+        /* border: 1px solid red; */
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1220px){
+    .container-grafic{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 25px;
+        /* border: 1px solid red; */
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 850px){
+    .descritionAbout{
+        font-size: 20px;
+    }
+
+    .container-grafic{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 25px;
+        /* border: 1px solid red; */
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+    .color1{
+        color: #1C5598;
+        font-size: 15px;
+    }
+    .github{
+        width: 30px;
+        height: 30px;
+        padding: 3px;
+    }
 }
 
