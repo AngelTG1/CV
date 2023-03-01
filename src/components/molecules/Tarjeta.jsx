@@ -13,7 +13,7 @@ function Tarjeta({infor, nombre}) {
                     <div class="number">
                         <h2>{infor}<span>%</span></h2>
                     </div>
-                </div>
+                </div>  
                 <h2 class="text">{nombre}</h2>
             </div>
         </div>

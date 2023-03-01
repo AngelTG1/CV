@@ -10,20 +10,14 @@ function EducationGrafict() {
         <section class="education ">
 
             <TitleSection msn={informations.titles[2]} clasename="heading titleAbout" />
-            
-            {/* <h1 class="heading titleAbout">My Education</h1> */}
 
             <div class="box-container">
 
-                <EducationAtom year={informations.year1} title={informations.eduTitle1} description={informations.eduDescription1} />
-                <EducationAtom year={informations.year2} title={informations.eduTitle2} description={informations.eduDescription2} />
-                <EducationAtom year={informations.year3} title={informations.eduTitle3} description={informations.eduDescription3} />
-                <EducationAtom year={informations.year4} title={informations.eduTitle4} description={informations.eduDescription4} />
-
-
-
-                
-
+              <EducationAtom year={informations.year1} title={informations.eduTitle1} description={informations.eduDescription1} />
+              <EducationAtom year={informations.year2} title={informations.eduTitle2} description={informations.eduDescription2} />
+              <EducationAtom year={informations.year3} title={informations.eduTitle3} description={informations.eduDescription3} />
+              <EducationAtom year={informations.year4} title={informations.eduTitle4} description={informations.eduDescription4} />
+            
             </div>
 
         </section>
