@@ -5,7 +5,7 @@ import NumberDescription from '../atoms/NumberDescription';
 function GraficaCircle({numberGrafic}) {
   return (
     <>
-      <div className="container-grafic">
+        <div className="container-grafic">
             <div className="card">
                 <div className="box">
                     <div className="percent">
@@ -19,7 +19,7 @@ function GraficaCircle({numberGrafic}) {
                     </div>
                     <h2 className="text"></h2>
                 </div>
-            </div>
+            </div> 
 
         
         </div>

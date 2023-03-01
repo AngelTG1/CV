@@ -12,4 +12,4 @@ function EducationAtom({year, title, description}) {
   )
 }
 
-export default EducationAtom
+export default EducationAtom;

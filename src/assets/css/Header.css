@@ -8,13 +8,6 @@
 body{
 
 }
-
-.Content-Header {
-    /* border: 2px solid black; */
-    display: flex;
-    margin: 25px 25px;
-}
-
 .Logo{
     /* border: 2px solid red; */
     width: 130px;
@@ -22,6 +15,14 @@ body{
     justify-content: space-between;
     border-radius: 50%;
 }
+
+.Content-Header {
+    /* border: 2px solid black; */
+    display: flex;
+    margin: 25px 25px;
+}
+
+
 
 .Content-img{
     background: linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
@@ -75,6 +76,62 @@ a{
     border-bottom: 3px solid #10A37F;
 }
 
+@media screen and (max-width: 850px){
+    .Content-Header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    } 
+    .Logo{
+        width: 120px;
+        height: 120px;
+    }
 
+    .Content-img{
+        width: 140px;
+        height: 140px;
+    }
+
+    .Content-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        /* border: 1px solid gold; */
+        width: 100%;
+        font-size: 15px;
+    }
+    .rayo{
+        width: 28px;
+        height: 28px;
+        /* padding: -5px; */
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid red; */
+        font-size: 10px;
+        /* width: 100%; */
+    }    
+}
+
+@media screen and (max-width: 531px){
+    .Content-title{
+        font-size: 10px;
+    }
+    a{
+        font-size: 7px;
+    }
+    .rayo{
+        width: 18px;
+        height: 18px;
+    }
+}
 
 
